@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Takase_0/Scene/TestPlayer.unity
+  isLoaded: 1
+  isActive: 1
