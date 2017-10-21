@@ -28,15 +28,23 @@ public class GameMaster : MonoBehaviour {
 	private float enemySpawnDuration = 0f;
 
 
+	void Awake() {
+
+	}
+
 	// Use this for initialization
 	void Start () {
 		SceneManeger = GameObject.Find ("SceneManeger");
+		for (int i = 0; i < UI_HPs.Length; i++) {
+			UI_HPs [i].GetComponent<HP_UI>().On(true);
+		}
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		ProcessEnemy ();
 		ProcessItem ();
+		ProcessUI_HP ();
 	}
 
 	void ProcessEnemy() {
@@ -77,10 +85,10 @@ public class GameMaster : MonoBehaviour {
 	}
 
 	void ProcessUI_HP() {
-		int hitpoint = player.GetComponent<CharacterBase> ().HitPoint - 1;
+		int hitpoint = player.GetComponent<CharacterBase> ().HitPoint;
 
 		for (int i = 0; i < UI_HPs.Length; i++) {
-			UI_HPs [i].SetActive (i < hitpoint ? true : false);
+			UI_HPs [i].GetComponent<HP_UI>().On(i < hitpoint ? true : false);
 		}
 	}
 
