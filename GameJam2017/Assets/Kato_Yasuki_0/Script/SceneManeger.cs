@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class SceneManeger : MonoBehaviour {
 	//FadeSceneの読み込み準備
 	private FadeScene myFade;
+	string currentScene;
+
 	void Start ()
 	{
 		myFade = GetComponent<FadeScene> ();
@@ -16,19 +18,33 @@ public class SceneManeger : MonoBehaviour {
 
 	void Update ()
 	{
-		/*
+		
 		if (Input.GetKeyDown (KeyCode.Tab)) 
 		{
 			StartFadeOut ();
 		}
-		*/
+
 
 		if (myFade.alfa >= 1.0f) {
-			SceneManager.LoadScene ("Main");
+			switch (currentScene) {
+				case "Title":
+					SceneManager.LoadScene ("Main");
+					break;
+				case "Main":
+					SceneManager.LoadScene ("Rezard");
+					break;
+				case "Rezard":
+					SceneManager.LoadScene ("Title");
+					break;
+			}
 		}
+
+
+		
 	}
 
 	public void StartFadeOut() {
 		myFade.enabled = true;
+		currentScene = SceneManager.GetActiveScene ().name;
 	}
 }

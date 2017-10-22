@@ -2,15 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Item_A : ItemsControl {
+public class Item_B : ItemsControl {
 	[SerializeField]
-	int Attack;
+	int Rapid;
 	[SerializeField]
-	int Speed;
-
+	int Size;
+	
 	public override void ItemEffect (Player player)
 	{
-		player.AttackPoint = Attack;
-		player.SpeedPoint = Speed;
+		player.RapidPoint = Rapid;
 	}
 }

@@ -4,5 +4,5 @@ using UnityEngine;
 
 public abstract class ItemsControl : MonoBehaviour 
 {
-	public abstract void ItemEffect ();
+	public abstract void ItemEffect (Player player);
 }
