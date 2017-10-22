@@ -1,69 +1,119 @@
 fileFormatVersion: 2
-guid: e63d585012a5e9a48ace26495802d0af
-timeCreated: 1508596072
+guid: b649d4de6dc3d834d9b40fa090d2077c
+timeCreated: 1508596092
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: Armature
-    100002: Bone_teki_A
-    100004: Bone_teki_A_end
-    100006: Cube
-    100008: Cylinder
-    100010: Cylinder.001
-    100012: Plane
-    100014: Plane.001
-    100016: Plane.003
-    100018: //RootNode
-    100020: "\u30D8\u30DF"
+    100002: Bone_boss
+    100004: Bone_center
+    100006: //RootNode
+    100008: Circle
+    100010: Cube
+    100012: Cube.001
+    100014: Cylinder
+    100016: Cylinder.001
+    100018: Cylinder.002
+    100020: Cylinder.003
+    100022: Plane
+    100024: Plane.001
+    100026: Plane.002
+    100028: Plane.003
+    100030: wing_1_L
+    100032: wing_1_L_end
+    100034: wing_1_R
+    100036: wing_1_R_end
+    100038: wing_2_L
+    100040: wing_2_L_end
+    100042: wing_2_R
+    100044: wing_2_R_end
+    100046: wing_3_L
+    100048: wing_3_L_end
+    100050: wing_3_R
+    100052: wing_3_R_end
+    100054: wing_4_L
+    100056: wing_4_L_end
+    100058: wing_4_R
+    100060: wing_4_R_end
     400000: Armature
-    400002: Bone_teki_A
-    400004: Bone_teki_A_end
-    400006: Cube
-    400008: Cylinder
-    400010: Cylinder.001
-    400012: Plane
-    400014: Plane.001
-    400016: Plane.003
-    400018: //RootNode
-    400020: "\u30D8\u30DF"
+    400002: Bone_boss
+    400004: Bone_center
+    400006: //RootNode
+    400008: Circle
+    400010: Cube
+    400012: Cube.001
+    400014: Cylinder
+    400016: Cylinder.001
+    400018: Cylinder.002
+    400020: Cylinder.003
+    400022: Plane
+    400024: Plane.001
+    400026: Plane.002
+    400028: Plane.003
+    400030: wing_1_L
+    400032: wing_1_L_end
+    400034: wing_1_R
+    400036: wing_1_R_end
+    400038: wing_2_L
+    400040: wing_2_L_end
+    400042: wing_2_R
+    400044: wing_2_R_end
+    400046: wing_3_L
+    400048: wing_3_L_end
+    400050: wing_3_R
+    400052: wing_3_R_end
+    400054: wing_4_L
+    400056: wing_4_L_end
+    400058: wing_4_R
+    400060: wing_4_R_end
     2300000: Plane
     3300000: Plane
-    4300000: Cylinder.001
-    4300002: Cube
-    4300004: Plane.001
-    4300006: Cylinder
-    4300008: Plane
-    4300010: Plane.003
+    4300000: Plane
+    4300002: Cylinder
+    4300004: Cylinder.001
+    4300006: Cube.001
+    4300008: Cylinder.003
+    4300010: Plane.002
+    4300012: Circle
+    4300014: Cylinder.002
+    4300016: Cube
+    4300018: Plane.003
+    4300020: Plane.001
     7400000: Armature|ArmatureAction
+    7400002: Armature|ArmatureAction.001
     9500000: //RootNode
-    10800000: "\u30D8\u30DF"
-    13700000: Cube
-    13700002: Cylinder
-    13700004: Cylinder.001
-    13700006: Plane.001
-    13700008: Plane.003
+    13700000: Circle
+    13700002: Cube
+    13700004: Cube.001
+    13700006: Cylinder
+    13700008: Cylinder.001
+    13700010: Cylinder.002
+    13700012: Cylinder.003
+    13700014: Plane.001
+    13700016: Plane.002
+    13700018: Plane.003
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: a_black
-    second: {fileID: 2100000, guid: 78453345b9a36d14db9564bb780c9a1d, type: 2}
+      name: Boss_canopy
+    second: {fileID: 2100000, guid: 3b8dae20a8c201b41b7f81ba6dc0f822, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: a_canopy
-    second: {fileID: 2100000, guid: 560a1930ab194d94e9ba7d1374237339, type: 2}
+      name: Boss_main
+    second: {fileID: 2100000, guid: 7151f316e2e304545ac8b8201c63a6cf, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: a_main
-    second: {fileID: 2100000, guid: 05cef9a3bb0fb3c43b3cba0cfee2ef0c, type: 2}
+      name: Boss_white
+    second: {fileID: 2100000, guid: 3d0d90bbd47104942b7d99e078973845, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: a_white
-    second: {fileID: 2100000, guid: 097030621e683ec40b25c347b012686a, type: 2}
+      name: No Name
+    second: {fileID: 2100000, guid: 49fdbca75e2000e49a9e0049e2230e33, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -89,39 +139,11 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Armature|ArmatureAction
-      takeName: Armature|ArmatureAction
-      firstFrame: 0
-      lastFrame: 139
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.2
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importVisibility: 1
