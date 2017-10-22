@@ -53,17 +53,28 @@
   <ItemGroup>
      <Compile Include="Assets\Kato_Yasuki_0\Script\FadeScene.cs" />
      <Compile Include="Assets\Kato_Yasuki_0\Script\Item_A.cs" />
+     <Compile Include="Assets\Kato_Yasuki_0\Script\Item_B.cs" />
      <Compile Include="Assets\Kato_Yasuki_0\Script\ItemsControl.cs" />
      <Compile Include="Assets\Kato_Yasuki_0\Script\SceneManeger.cs" />
      <Compile Include="Assets\Kato_Yasuki_0\Script\UVScroller.cs" />
      <Compile Include="Assets\ryo_UI_0\GradationController.cs" />
-     <Compile Include="Assets\Sonicfolder\Boss.cs" />
+     <Compile Include="Assets\ryo_UI_0\Script\Timer.cs" />
      <Compile Include="Assets\Sonicfolder\HP_UI.cs" />
-     <Compile Include="Assets\Sonicfolder\LesserEnemyBase.cs" />
+     <Compile Include="Assets\Sonicfolder\Scripts\GameMaster.cs" />
      <Compile Include="Assets\Takase_0\C#\Bullet\BulletBase.cs" />
+     <Compile Include="Assets\Takase_0\C#\Bullet\EnemyBulletA.cs" />
+     <Compile Include="Assets\Takase_0\C#\Bullet\EnemyBulletO.cs" />
+     <Compile Include="Assets\Takase_0\C#\Character\Boss.cs" />
      <Compile Include="Assets\Takase_0\C#\Character\CharacterBase.cs" />
+     <Compile Include="Assets\Takase_0\C#\Character\EnemyBase.cs" />
+     <Compile Include="Assets\Takase_0\C#\Character\EnemyBoss.cs" />
+     <Compile Include="Assets\Takase_0\C#\Character\LesserEnemyA.cs" />
+     <Compile Include="Assets\Takase_0\C#\Character\LesserEnemyBase.cs" />
+     <Compile Include="Assets\Takase_0\C#\Character\LesserEnemyO.cs" />
      <Compile Include="Assets\Takase_0\C#\Character\Player.cs" />
-     <Compile Include="Assets\Takase_0\C#\GameMaster.cs" />
+     <Compile Include="Assets\Takase_0\C#\Character\Player1.cs" />
+     <Compile Include="Assets\Takase_0\C#\Item.cs" />
+     <None Include="Assets\Sonicfolder\Shaders\Scroll.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity2017p2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

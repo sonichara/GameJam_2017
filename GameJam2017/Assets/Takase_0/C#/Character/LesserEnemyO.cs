@@ -24,4 +24,10 @@ public class LesserEnemyO : LesserEnemyBase {
 
         upDown *= -1;
     }
+
+	public void OnCollisionEnter(Collision collision) { 
+		if(collision.gameObject.tag == "PlayerBullet") {
+			Damage();
+		}
+	}
 }

@@ -202,7 +202,7 @@ GameObject:
   - component: {fileID: 114783622904938344}
   - component: {fileID: 54420213037992292}
   - component: {fileID: 136744133618425804}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player 1
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1187,7 +1187,7 @@ MonoBehaviour:
   i_hitPoint: 5
   f_speedPoint: 5
   i_rapidPoint: 10
-  go_bullet: {fileID: 1981209026980112, guid: 5915d01ccef59ec448148bd5144a9839, type: 2}
+  go_bullet: {fileID: 1981209026980112, guid: e2b93570087909646b7843e7b2538d83, type: 2}
   tr_bulletSpawn: {fileID: 4707420532496336}
   f_delayTime: 3
   magnification: 0.9

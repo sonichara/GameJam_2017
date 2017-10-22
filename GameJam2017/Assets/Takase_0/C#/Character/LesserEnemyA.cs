@@ -12,4 +12,10 @@ public class LesserEnemyA : LesserEnemyBase {
 
         tr_self.Translate(f_speedPoint * Time.deltaTime,0,0);
 	}
+
+	public void OnCollisionEnter(Collision collision) { 
+		if(collision.gameObject.tag == "PlayerBullet") {
+			Damage();
+		}
+	}
 }

@@ -103,4 +103,10 @@ public class EnemyBoss : EnemyBase {
 
         }
     }
+
+	public void OnCollisionEnter(Collision collision) { 
+		if(collision.gameObject.tag == "PlayerBullet") {
+			Damage();
+		}
+	}
 }

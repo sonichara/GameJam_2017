@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Sonicfolder\Shaders\Scroll.shader">
+    <Files>
+      <File FileName="Assets\Sonicfolder\Boss.cs" Line="19" Column="2" />
+      <File FileName="Assets\Sonicfolder\LesserEnemyBase.cs" Line="16" Column="18" />
+      <File FileName="Assets\Sonicfolder\HP_UI.cs" Line="23" Column="29" />
+      <File FileName="Assets\Takase_0\C#\Character\Player.cs" Line="73" Column="25" />
+      <File FileName="Assets\Kato_Yasuki_0\Script\FadeScene.cs" Line="13" Column="39" />
+      <File FileName="Assets\Kato_Yasuki_0\Script\SceneManeger.cs" Line="34" Column="2" />
+      <File FileName="Assets\Takase_0\C#\GameMaster.cs" Line="99" Column="3" />
+      <File FileName="Assets\Sonicfolder\Shaders\Scroll.shader" Line="35" Column="53" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -28,7 +28,7 @@ public class SceneManeger : MonoBehaviour {
 		if (myFade.alfa >= 1.0f) {
 			switch (currentScene) {
 				case "Title":
-					SceneManager.LoadScene ("Main");
+					SceneManager.LoadScene ("TestPlayer_0");
 					break;
 				case "Main":
 					SceneManager.LoadScene ("Rezard");

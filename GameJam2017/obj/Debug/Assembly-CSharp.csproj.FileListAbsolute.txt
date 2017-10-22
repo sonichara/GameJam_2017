@@ -1,3 +1,4 @@
+C:\Users\TWレンタル\Documents\GameJam2017\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\TWレンタル\Documents\GameJam2017\Temp\bin\Debug\Assembly-CSharp.dll
 C:\Users\TWレンタル\Documents\GameJam2017\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\Users\TWレンタル\Documents\GameJam2017\Temp\bin\Debug\nunit.framework.dll
@@ -33,6 +34,5 @@ C:\Users\TWレンタル\Documents\GameJam2017\Temp\bin\Debug\UnityEngine.UIAutom
 C:\Users\TWレンタル\Documents\GameJam2017\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
 C:\Users\TWレンタル\Documents\GameJam2017\Temp\bin\Debug\UnityEngine.HoloLens.xml
 C:\Users\TWレンタル\Documents\GameJam2017\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
-C:\Users\TWレンタル\Documents\GameJam2017\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\TWレンタル\Documents\GameJam2017\obj\Debug\Assembly-CSharp.dll
 C:\Users\TWレンタル\Documents\GameJam2017\obj\Debug\Assembly-CSharp.pdb
