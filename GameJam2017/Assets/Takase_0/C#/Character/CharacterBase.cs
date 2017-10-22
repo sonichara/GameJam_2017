@@ -16,16 +16,14 @@ public abstract class CharacterBase : MonoBehaviour {
 	protected int i_rapidPoint;
 
     [SerializeField]
-    protected GameObject go_bullet;
+    GameObject go_bullet;
 
     [SerializeField]
-    protected Transform tr_bulletSpawn;
+    Transform tr_bulletSpawn;
 
     protected Transform tr_self;
 
-    protected Animator an_anim;
-
-    protected void Start()
+    private void Start()
     {
         tr_self = transform;
     }
@@ -92,6 +90,7 @@ public abstract class CharacterBase : MonoBehaviour {
         Instantiate(go_bullet, tr_bulletSpawn.position,Quaternion.identity,null);
         go_bullet.GetComponent<BulletBase>().BulletAttackPoint = i_attackPoint;
         go_bullet.GetComponent<BulletBase>().BulletRapidPoint = i_rapidPoint;
+        Debug.Log("たまうった");
 
     }
 
