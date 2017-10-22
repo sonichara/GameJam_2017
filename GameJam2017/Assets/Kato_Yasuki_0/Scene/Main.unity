@@ -309,7 +309,7 @@ GameObject:
   - component: {fileID: 168320681}
   - component: {fileID: 168320680}
   m_Layer: 0
-  m_Name: BackGround
+  m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -328,7 +328,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 97fcb5fdbc813c343a10b66b45beb50c, type: 2}
+  - {fileID: 2100000, guid: e41119a1a5c1a434796ea34efe48405b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
