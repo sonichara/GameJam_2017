@@ -424,7 +424,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   i_attackPoint: 1
   i_hitPoint: 5
-  i_speedPoint: -1
+  f_speedPoint: -1
   i_rapidPoint: 3
   go_bullet: {fileID: 1577908844548882, guid: c93a7d36b527743419e1023e9e4ac3d2, type: 2}
   tr_bulletSpawn: {fileID: 4856804938610554}
