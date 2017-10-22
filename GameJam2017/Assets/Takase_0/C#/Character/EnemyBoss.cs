@@ -23,13 +23,12 @@ public class EnemyBoss : EnemyBase {
 
     bool b_canShot = false;
 
-    enum BossCommand
+    public enum BossCommand
     {
         appearance, battle,escape,wait
     }
 
-    [SerializeField]
-    BossCommand bosscommand = BossCommand.appearance;
+    public BossCommand bosscommand = BossCommand.appearance;
 
     private void Start()
     {
