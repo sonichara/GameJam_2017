@@ -63,7 +63,7 @@ public class EnemyBoss : EnemyBase {
                     i_changeUPDpwn *= -1;
                 }
 
-                tr_self.Translate(0, i_changeUPDpwn * i_speedPoint * Time.deltaTime, 0);
+                tr_self.Translate(0, i_changeUPDpwn * f_speedPoint * Time.deltaTime, 0);
 
                 break;
 

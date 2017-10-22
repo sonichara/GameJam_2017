@@ -8,7 +8,7 @@ public class LesserEnemyO : LesserEnemyBase {
 
 	// Update is called once per frame
 	void Update () {
-        tr_self.Translate(i_speedPoint * Time.deltaTime, upDown * i_speedPoint * Time.deltaTime, 0);
+        tr_self.Translate(f_speedPoint * Time.deltaTime, upDown * f_speedPoint * Time.deltaTime, 0);
 	}
 
     new void Shot()
