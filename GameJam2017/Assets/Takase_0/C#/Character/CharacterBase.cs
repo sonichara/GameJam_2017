@@ -11,7 +11,7 @@ public abstract class CharacterBase : MonoBehaviour {
     [SerializeField]
 	protected int i_hitPoint;
     [SerializeField]
-	protected int i_speedPoint;
+	protected float f_speedPoint;
     [SerializeField]
 	protected int i_rapidPoint;
 
@@ -58,16 +58,16 @@ public abstract class CharacterBase : MonoBehaviour {
         }
     }
 
-    public int SpeedPoint
+    public float SpeedPoint
     {
         set
         {
-            this.i_speedPoint = value;
+            this.f_speedPoint = value;
         }
 
         get
         {
-            return this.i_speedPoint;
+            return this.f_speedPoint;
         }
     }
 

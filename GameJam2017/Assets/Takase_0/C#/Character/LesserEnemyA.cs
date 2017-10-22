@@ -10,6 +10,6 @@ public class LesserEnemyA : LesserEnemyBase {
 	// Update is called once per frame
 	void Update () {
 
-        tr_self.Translate(i_speedPoint * Time.deltaTime,0,0);
+        tr_self.Translate(f_speedPoint * Time.deltaTime,0,0);
 	}
 }

@@ -20,7 +20,8 @@ public class Player : CharacterBase {
     float f_limitRight, f_limitLeft, f_limitTop, f_limitBottom;
 
     //ステータス変更用の変数
-    int i_attackPointOrigin, i_speedPointOrigin;
+    int i_attackPointOrigin;
+    float f_speedPointOrigin;
 
     public GameObject go_redPart;
     public GameObject go_greenPart;
@@ -39,7 +40,7 @@ public class Player : CharacterBase {
         f_limitTop = limitPos.y * magnification;
         f_limitBottom = -limitPos.y * magnification;
         i_attackPointOrigin = i_attackPoint;
-        i_speedPointOrigin = i_speedPoint;
+        f_speedPointOrigin = f_speedPoint;
 
         anim = GetComponent<Animator>();
     }
@@ -124,7 +125,7 @@ public class Player : CharacterBase {
     private void PowerUpFinish()
     {
         i_attackPoint = i_attackPointOrigin;
-        i_speedPoint = i_speedPointOrigin;
+        f_speedPoint = f_speedPointOrigin;
         go_changePart.SetActive(false);
         go_changePart = null;
 
