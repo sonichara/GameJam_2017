@@ -130,4 +130,10 @@ public class Player : CharacterBase {
         go_changePart = null;
 
     }
+
+	public void OnCollisionEnter(Collision collision) { 
+		if(collision.gameObject.tag == "EnemyBullet" || collision.gameObject.tag == "Enemy") {
+			Damage();
+		}
+	}
 }
